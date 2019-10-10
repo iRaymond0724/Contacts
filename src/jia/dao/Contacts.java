@@ -203,7 +203,7 @@ public class Contacts extends JFrame{
 	public static InputStreamReader get_InputStreamReader(String select_path) throws FileNotFoundException, UnsupportedEncodingException{
 		//File file_in = new File(select_path);
 		FileInputStream fileinput = new FileInputStream(select_path);
-        InputStreamReader inputStreamReader = new InputStreamReader(fileinput,"GBK");
+		InputStreamReader inputStreamReader = new InputStreamReader(fileinput,"GBK");
         
 		return inputStreamReader;
 	}
